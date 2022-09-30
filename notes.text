@@ -1,0 +1,31 @@
+////first time running array/////
+Results for the extraLargeArray
+insert 884.226469 ms
+append 3.669321 ms
+
+////run  time for tinyArray/////
+Results for the tinyArray
+insert 43.31 μs
+append 90.562 μs
+
+/// Run time for smallArray ///
+Results for the smallArray
+insert 51.106 μs
+append 100.618 μs
+
+/// Run time for mediumArray ///
+Results for the mediumArray
+insert 144.425 μs
+append 143.894 μs
+
+/// Run time for LargeArray ///
+Results for the largeArray
+insert 6.105986 ms
+append 585.472 μs
+
+
+/// explanation of what is gpoing on with bot functions ///
+the append function is just pushing to the end of the array so a O(1) run time beccause
+it is psuhing [i] to the end of the array and adding it in the insert funtion they are unshiftting 
+these means it is shifting the whole array doen and adding [i] to teh front this takes alot longer to run through
+and shift through the arrray  so the append function runs faster because all it has to do is add [i] to the end of the array 
